@@ -14,7 +14,7 @@ APPLE OSX MACOS SNMP MIB OID TEXT MAPPINGS
 
 If you've been Searching for the OID to Text Mappings for OSX SNMP MIB's.. see the Repo for the Merged OID to TEXT Mappings.
 
-If you're having issues with out of the box install and config of SNMPd.. reminder to use Community String private. Out of the Box.. MAC OSX contains the Commubity String public that is locked down.
+If you're having issues with out of the box install and config of SNMPd.. reminder to use Community String private. Out of the Box.. MAC OSX contains the Community String public that is locked down.
 
 xsss-Mac-mini:snmp xss$ snmpwalk -v 2c -c private 127.0.0.1 .1.3.6.1.2.1.2.2.1.2
 ...

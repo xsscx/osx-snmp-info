@@ -26,6 +26,10 @@ Also found...
 snmpd[8590]: snmpd(8590,0x11087fdc0) malloc: Incorrect checksum for freed object 0x7fe46d45a4e0: probably modified after being freed.
 com.apple.xpc.launchd[1] (org.net-snmp.snmpd[9241]): Service exited due to SIGSEGV | sent by exc handler[9241]
 
+...
 
+Other Items....
+
+the file osx.cfg is for MRTG.. its a working config file if you're interested in Monitoring your MAC. During the testing of the config file I started generating errors like the malloc error noted above and the SIGSEGV.
 
 

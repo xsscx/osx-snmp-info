@@ -4,6 +4,10 @@ Helper Info for OSX SNMP
 
 Fuzzing Project for XSS.CX on OSX hitting SNMPd 
 
+Starting at: NET-SNMP version: 5.6.2.1
+
+Issue: function: netsnmp_transport_free in NET-SNMP Version = 5.6.2.1 has a UAF Bug that looks to be exploitable depending on the OS you're using.. for example.. this doesn't look exploitable on OSX Catalina because of SIP.
+
 Background
 
 Purchased a MAC Mini to do some SNMP Fuzzing.
